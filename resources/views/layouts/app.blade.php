@@ -14,7 +14,7 @@
         <!-- Styles CSS -->
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/sonorama.css">
+        <link rel="stylesheet" href="css/motherbucket.css">
         <link rel="stylesheet" href="css/responsive.css">
         <link rel="stylesheet" href="css/isotope.css">
         <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css">
