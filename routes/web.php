@@ -13,26 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
-
-Route::get('/news', function () {
-    return view('news');
-});
-
-Route::get('/shows', function () {
-    return view('shows');
-});
-
-Route::get('/songs', function () {
-    return view('songs');
-});
-
-Route::get('/gallery', function () {
-    return view('gallery');
-});
-
-Route::get('/contact', function () {
-    return view('contact');
-});
+Route::get('/', '\App\Http\Controllers\HomeController@index')->name('home');
+Route::get('/news', '\App\Http\Controllers\NewsController@index')->name('news');
+Route::get('/shows', '\App\Http\Controllers\ShowsController@index')->name('shows');
+Route::get('/songs', '\App\Http\Controllers\SongController@index')->name('songs');
+Route::get('/gallery', '\App\Http\Controllers\GalleryController@index')->name('gallery');
+Route::get('/contactus', '\App\Http\Controllers\ContactUsController@index')->name('contactus');

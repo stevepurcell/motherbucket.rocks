@@ -5,7 +5,7 @@
     <div class="title-container">
         <div class="welcome logo">
             <div class="title-text">
-                <p>Coming Soon ...</p>
+                <p>Songs Page Coming Soon ...</p>
             </div>
         </div>
     </div>

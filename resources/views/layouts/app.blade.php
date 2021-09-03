@@ -33,12 +33,12 @@
 
             <nav class="main-menu">
             	<ul>
-                	<li class="current"><a href="/">Home</a></li>
-                    <li><a href="/news">News</a></li>
-                    <li><a href="/shows">Upcoming Shows</a></li>
-                    <li><a href="/songs">Songs</a></li>
-                    <li><a href="/gallery">Gallery</a></li>
-                    <li><a href="/contact">Contact Us</a></li>
+                	<li class="{{ request()->is('home') ? 'current' : '' }}"><a href="/">Home</a></li>
+                    <li class="{{ request()->is('news') ? 'current' : '' }}"><a href="/news">News</a></li>
+                    <li class="{{ request()->is('shows') ? 'current' : '' }}"><a href="/shows">Upcoming Shows</a></li>
+                    <li class="{{ request()->is('songs') ? 'current' : '' }}"><a href="/songs">Songs</a></li>
+                    <li class="{{ request()->is('gallery') ? 'current' : '' }}"><a href="/gallery">Gallery</a></li>
+                    <li class="{{ request()->is('contactus') ? 'current' : '' }}"><a href="/contactus">Contact Us</a></li>
                 </ul>
             </nav>
 
@@ -50,7 +50,7 @@
                     <li><a href="/shows">Upcoming Shows</a></li>
                     <li><a href="/songs">Songs</a></li>
                     <li><a href="/gallery">Gallery</a></li>
-                    <li><a href="/contact">Contact Us</a></li>
+                    <li><a href="/contactus">Contact Us</a></li>
                 </ul>
             </nav>
         </div>
