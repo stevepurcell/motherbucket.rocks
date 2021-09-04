@@ -56,7 +56,7 @@ section h1 {
 	width: 65px;
 	height: 3px;
 	margin: auto;
-	margin-bottom: 25px;
+	margin-bottom: 70px;
 	background: #008081;
 }
 
@@ -198,6 +198,11 @@ section h1 {
 #nav2 > ul > li a{color: #fff;}
 #nav2 > ul > li a:hover{color: #008081;}
 #nav2.active > ul {display: block;}
+
+.song-table {
+    margin: 0 auto;
+    width: 0%;
+}
 
 /* Slider */
 .slider{
@@ -674,12 +679,6 @@ section h1 {
 	width: 400px;
 	margin-left: -200px;
 }
-
-.front-content.songs{
-	width: 400px;
-	margin-left: -200px;
-}
-
 .controller{
 	float: right;
 	right: 50%;
@@ -708,7 +707,7 @@ section h1 {
 	height: 450px;
 	position: relative;
 	overflow: hidden;
-	margin-left: -20px;
+	margin-left: 10px;
 }
 .dates-wrapper ul li{
 	float: left;
@@ -726,96 +725,12 @@ section h1 {
 }
 .dates-nav div:hover{}
 .dates-nav .next{
-	right: -100px;
-	background-position: 0 -44px;
-}
-.dates-nav .prev{
-	left: -115px;
-}
-
-/* Songs */
-.songcontroller{
-	float: right;
-	right: 50%;
-	position: relative;	
-}
-.songcontroller .songdots {
-	padding: 0;
-	float: right;
-	right: -50%;
-	position: relative;
-	margin: 35px 0 0;
-}
-.songcontroller ul li{
-	width: 12px;
-	height: 12px;
-	border: 2px solid #535252;
-	background: #2e2d2d;
-	border-radius: 50%;
-	float: left;
-	cursor: pointer;
-	margin: 0 2px;
-}
-.songcontroller ul li.selected, .songcontroller ul li:hover{border: 2px solid #008081 !important; background: #008081 !important;}
-
-#songs>div:nth-of-type(1) {
-	background: url(../img/parallax/01.jpg) 50% 0% repeat-y fixed;
-	background-color: #333333;
-	margin: 0;
-	height: 850px;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	text-align: center;
-/*	background-size: 100%;*/
-	
-	-moz-background-size: cover !important;
-	-o-background-size: cover !important;
-	-webkit-background-size: cover !important;
-	-khtml-background-size: cover !important;
-}
-.parallax-wrapper.songs {
-	height: 850px;
-    position: relative;
-    width: 100% !important;
-    /*min-width: 1000px;*/
-    margin: 0;
-    padding: 0;
-}
-
-.songs-wrapper{
-	width: 400px;
-	height: 450px;
-	position: relative;
-	overflow: hidden;
-	margin-left: 10px;
-}
-.songs-wrapper ul li{
-	float: left;
-	width: 400px;
-}
-.songs-nav div{
-	background: url(../img/icons/dates-arrows.png) top left no-repeat;
-	position: absolute;
-	border-radius: 50%;
-	width: 44px;
-	height: 44px;
-	cursor: pointer;
-	top: 60%;
-	margin-top: -22px;
-}
-.songs-nav div:hover{}
-.songs-nav .nextsongs{
 	right: -85px;
 	background-position: 0 -44px;
 }
-.songs-nav .prevsongs{
+.dates-nav .prev{
 	left: -100px;
 }
-
-.song {font-size: 20px; text-align: left; color: #fff;}
-
 .date-box{margin-bottom: 12px;}
 .date-box:last-child{margin-bottom: 0;}
 .date-box .info{

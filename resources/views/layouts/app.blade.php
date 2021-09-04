@@ -55,7 +55,9 @@
             </nav>
         </div>
 
-        @yield('content')
+        <main class="py-1">
+            @yield('content')
+        </main>
 
 		<!-- Scripts JS -->
 <!--    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -63,7 +65,7 @@
         <script src="js/jquery-1.11.0.min.js"></script>
         <script src="js/superslides-0.6.2/dist/jquery.superslides.js" type="text/javascript" charset="utf-8"></script>
         <script src="js/jquery.isotope.min.js"></script>
-	  <script type="text/javascript" src="js/player/audio.js"></script> <!-- Audio Player -->
+	    <script type="text/javascript" src="js/player/audio.js"></script> <!-- Audio Player -->
         <script type="text/javascript" src="js/jquery.hoverdir.js"></script>
         <script type="text/javascript" src="js/jquery.nav.js"></script>
         <script src="js/news.js"></script>
