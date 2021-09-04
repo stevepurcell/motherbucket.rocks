@@ -19,3 +19,5 @@ Route::get('/shows', '\App\Http\Controllers\ShowsController@index')->name('shows
 Route::get('/songs', '\App\Http\Controllers\SongController@index')->name('songs');
 Route::get('/gallery', '\App\Http\Controllers\GalleryController@index')->name('gallery');
 Route::get('/contactus', '\App\Http\Controllers\ContactUsController@index')->name('contactus');
+
+Route::get('/msongs', '\App\Http\Controllers\SongController@msongs')->name('msongs');

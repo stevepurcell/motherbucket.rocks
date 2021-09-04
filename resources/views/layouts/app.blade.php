@@ -48,7 +48,7 @@
                     <li><a href="/">Home</a></li>
                     <li><a href="/news">News</a></li>
                     <li><a href="/shows">Upcoming Shows</a></li>
-                    <li><a href="/songs">Songs</a></li>
+                    <li><a href="/msongs">Songs</a></li>
                     <li><a href="/gallery">Gallery</a></li>
                     <li><a href="/contactus">Contact Us</a></li>
                 </ul>

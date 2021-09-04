@@ -13,4 +13,11 @@ class SongController extends Controller
         //$data = Song::where('status_id', '<=', '3')->orderby('artist', 'asc')->get()->groupBy('artist');
         return view('songs', compact('data'));        
     }
+
+    public function msongs()
+    {
+        $data = Song::where('status_id', '<=', '3')->orderby('artist', 'asc')->get();
+        //$data = Song::where('status_id', '<=', '3')->orderby('artist', 'asc')->get()->groupBy('artist');
+        return view('msongs', compact('data'));        
+    }
 }
