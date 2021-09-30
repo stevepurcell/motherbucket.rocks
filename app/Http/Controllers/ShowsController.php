@@ -10,4 +10,9 @@ class ShowsController extends Controller
     {
         return view('shows');
     }
+
+    public function mshows()
+    {
+        return view('mshows');
+    }
 }

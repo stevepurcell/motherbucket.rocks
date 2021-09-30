@@ -21,3 +21,4 @@ Route::get('/gallery', '\App\Http\Controllers\GalleryController@index')->name('g
 Route::get('/contactus', '\App\Http\Controllers\ContactUsController@index')->name('contactus');
 
 Route::get('/msongs', '\App\Http\Controllers\SongController@msongs')->name('msongs');
+Route::get('/mshows', '\App\Http\Controllers\ShowsController@mshows')->name('mshows');

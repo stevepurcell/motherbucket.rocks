@@ -824,6 +824,8 @@ section h1 {
 }
 
 .song {font-size: 20px; text-align: left; color: #fff;}
+.song-artist {font-size: 20px; text-align: left; width: 50%; background: #008081; color: #fff;}
+.song-name {font-size: 20px; text-align: right; width: 50%; background: #590ad8; color: #fff;}
 
 .date-box{margin-bottom: 12px;}
 .date-box:last-child{margin-bottom: 0;}

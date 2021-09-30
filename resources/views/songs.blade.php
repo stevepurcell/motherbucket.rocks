@@ -10,7 +10,7 @@
                     	<ul>
                             <li>               	
                                 @foreach ($data as $item)
-                                    <div class="song"><strong>{{$item->artist}}</strong> - {{ $item->name }}</div>
+                                    <p class="song"><strong>{{$item->artist}}</strong>&nbsp;&nbsp;-&nbsp;&nbsp;{{ $item->name }}</p>
                 
                                     @if(($loop->iteration % 15) == 0)
                                         </li><li>
