@@ -29,7 +29,7 @@
 
         <div class="full-wrapper header">
         	<div class="main-logo">
-            	<a class="symbol" href="#"><div class="navbar-brand"><ul><li></li><li></li><li></li></ul></div>motherbucket</a>
+            	<a class="symbol" href="#">motherbucket<span>.</span></a>
             </div>
 
             <nav class="main-menu">
